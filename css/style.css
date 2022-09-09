@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    height: 520px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.container .form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.form h2{
+    font-size:30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-top: 40%;
+    color: rgb(117, 110, 110);
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+span{
+    color:orangered;
+}
+.form label{
+    display:block;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    
+}
+.form input[type="email"], input[type="password"]{
+    width:80%;
+    padding:12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.form input[type="email"], input[type="password"]:focus{
+    outline: none;
+}
+.form .btn{
+    display: inline-block;
+    font-size: 12px;
+}
+.form input[type="checkbox"]{
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    margin-left: 50px;
+    color: green;
+    font-size: 16px;
+    cursor: pointer;
+}
+.link:hover{
+    color: orangered;
+}
+.form input[type="submit"]{
+    width:80%;
+    padding:12px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover{
+    color:orangered;
+    background: transparent;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:400px;
+    height: 520px;
+}
